@@ -250,6 +250,10 @@ button:hover{
 	transform: translate(0, -50px);
 } 
 
+#hero-image img{
+  border-radius: 50%;
+}
+
 #icon{
 	right: 7vw;
 }
@@ -274,7 +278,7 @@ button:hover{
   display: block;
 }
 
-@media screen and (max-width: 1000px){//smaller than
+@media screen and (max-width: 1000px){/*smaller than*/
  .imageShow{
 	min-height: 60vh;
 	width: 100vw
@@ -298,7 +302,7 @@ button:hover{
 	
 }
 
-@media screen and (min-width: 1000px){//bigger than
+@media screen and (min-width: 1000px){/*bigger than*/
  .imageShow{
 	min-height: 60vh;
 	width: 50vw
